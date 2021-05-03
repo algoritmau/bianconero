@@ -1,0 +1,49 @@
+{
+  "name": "bianconero",
+  "displayName": "BiancoNero",
+  "description": "A minimal, black and white theme for day and night",
+  "icon": "images/bianconero-logo.png",
+  "version": "0.0.1",
+  "publisher": "spaceinvadev",
+  "author": {
+    "name": "Mauricio Paternina",
+    "url": "https://spaceinva.dev",
+    "email": "hello@spaceinva.dev"
+  },
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Theme",
+    "Light",
+    "Dark",
+    "White",
+    "Black",
+    "Minimal",
+    "Low Contrast"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "BiancoNero (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/bianconero-color-theme-light.json"
+      },
+      {
+        "label": "BiancoNero (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bianconero-color-theme-dark.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spaceinvadev/bianconero"
+  },
+  "bugs": {
+    "url": "https://github.com/spaceinvadev/bianconero/issues"
+  }
+}
