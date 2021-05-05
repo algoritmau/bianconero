@@ -54,6 +54,15 @@
     "editorSuggestWidget.highlightForeground": "#000",
     "editorSuggestWidget.selectedBackground": "#eee",
 
+    // Lists and trees
+    "list.activeSelectionBackground": "#080808",
+    "list.activeSelectionForeground": "#fff",
+    "list.focusBackground": "#080808",
+    "list.focusForeground": "#fff",
+    "list.focusOutline": "#080808",
+    "list.hoverBackground": "#bbb",
+    "list.hoverForeground": "#080808",
+
     // Editor's Bracket Match Border ✔
     "editorBracketMatch.border": "#080808",
 
@@ -142,29 +151,29 @@
     "scrollbar.shadow": "#cecece03",
     "scrollbarSlider.activeBackground": "#aaa",
     "scrollbarSlider.background": "#eee",
-    "scrollbarSlider.hoverBackground": "#ccc"
+    "scrollbarSlider.hoverBackground": "#ccc",
 
-    // // Integrated Terminal Colors - TODO: Add ansiBright Colors
-    // "terminal.background": "#ffffff",
-    // "terminal.border": "#7b7b7b",
-    // "terminal.foreground": "#c7c7c7",
-    // "terminal.selectionBackground": "#cecece24",
-    // "terminalCursor.foreground": "#61f8ec88",
-    // "terminal.ansiBlack": "#ffffff",
-    // "terminal.ansiBlue": "#6bb3ee",
-    // "terminal.ansiCyan": "#8cebe3",
-    // "terminal.ansiGreen": "#65d39c",
-    // "terminal.ansiMagenta": "#f898d3",
-    // "terminal.ansiRed": "#ff8e8e",
-    // "terminal.ansiWhite": "#f8f8f8",
-    // "terminal.ansiYellow": "#d39165",
+    // Integrated Terminal Colors - TODO: Add ansiBright Colors
+    "terminal.background": "#ffffff",
+    "terminal.border": "#aaa",
+    "terminal.foreground": "#080808",
+    "terminal.selectionBackground": "#08080856",
+    "terminalCursor.foreground": "#080808",
+    "terminal.ansiBlack": "#080808",
+    "terminal.ansiBlue": "#00005c",
+    "terminal.ansiCyan": "#8cebe3",
+    "terminal.ansiGreen": "#2b5842",
+    "terminal.ansiMagenta": "#700070",
+    "terminal.ansiRed": "#ad0000",
+    "terminal.ansiWhite": "#ddd",
+    "terminal.ansiYellow": "#c2b608",
 
-    // // Breadcrumbs colors ✔
-    // "breadcrumb.background": "#ffffff",
-    // "breadcrumb.foreground": "#eec0c0",
-    // "breadcrumb.focusForeground": "#d3d2d2",
-    // "breadcrumb.activeSelectionForeground": "#ebebeb",
-    // "breadcrumbPicker.background": "#0e0f10"
+    // Breadcrumbs colors ✔
+    "breadcrumb.background": "#ffffff",
+    "breadcrumb.foreground": "#808080",
+    "breadcrumb.focusForeground": "#323232",
+    "breadcrumb.activeSelectionForeground": "#080808",
+    "breadcrumbPicker.background": "#eee"
   },
   "tokenColors": [
     {
