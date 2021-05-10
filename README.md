@@ -6,9 +6,21 @@ Introducing BiancoNero, a minimal, black and white theme for day and night.
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/spaceinvadev.bianconero.svg)](https://marketplace.visualstudio.com/items?itemName=spaceinvadev.bianconero)
 
-![Logo of the Bianconero theme](/images/bianconero-logo.png)
+<img src="images/bianconero-logo.png" width="320" height="320" style="display: block; margin: 24px auto 40px auto;" />
 
 <br>
+
+## Theme Preview
+
+Dark Theme
+
+![Theme Dark Preview](images/bianconero-dark-preview.png)
+
+<br>
+
+Light Theme
+
+![Theme Light Preview](images/bianconero-light-preview.png)
 
 ## Installation
 
