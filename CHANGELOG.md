@@ -1,5 +1,13 @@
 # Change Log
 
+## v0.2.1
+
+<small>MAY 26, 2021</small>
+
+### What's Changed
+
+- Update colors for a few CSS selectors
+
 ## v0.2.0
 
 <small>MAY 25, 2021</small>

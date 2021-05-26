@@ -201,7 +201,8 @@
       "name": "HTML Tag Name",
       "scope": "entity.name.tag.html",
       "settings": {
-        "foreground": "#646464"
+        "foreground": "#080808",
+        "fontStyle": "bold"
       }
     },
     {
@@ -212,7 +213,7 @@
         "punctuation.definition.tag.end.html"
       ],
       "settings": {
-        "foreground": "#AAA"
+        "foreground": "#222"
       }
     },
     {
@@ -290,7 +291,7 @@
       "name": "CSS Source",
       "scope": ["source.css", "source.sass"],
       "settings": {
-        "foreground": "#d4d4d4"
+        "foreground": "#080808"
       }
     },
     {
@@ -317,7 +318,7 @@
         "entity.name.tag.wildcard.sass"
       ],
       "settings": {
-        "foreground": "#ff9d4d",
+        "foreground": "#000",
         "fontStyle": "bold"
       }
     },
@@ -332,7 +333,7 @@
       "name": "CSS Element Selector",
       "scope": "entity.name.tag.css",
       "settings": {
-        "foreground": "#9db6ec"
+        "foreground": "#000"
       }
     },
     {
@@ -351,14 +352,15 @@
         "entity.other.attribute-name.class.css"
       ],
       "settings": {
-        "foreground": "#ffbfbf"
+        "foreground": "#000",
+        "fontStyle": "bold"
       }
     },
     {
       "name": "CSS Pseudo Class Selector",
       "scope": ["entity.other.attribute-name.pseudo-class.css"],
       "settings": {
-        "foreground": "#626969",
+        "foreground": "#222",
         "fontStyle": "bold"
       }
     },
@@ -448,16 +450,23 @@
         "keyword.other.unit.percentage.css"
       ],
       "settings": {
-        "foreground": "#6a5da3",
-        "fontStyle": "bold"
+        "foreground": "#333"
       }
     },
     {
       "name": "CSS Variables",
       "scope": ["variable.css", "variable.scss"],
       "settings": {
-        "foreground": "#c7a688", // 75b36d
-        "fontStyle": ""
+        "foreground": "#000",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "CSS Variable Arguments",
+      "scope": ["variable.argument.css"],
+      "settings": {
+        "foreground": "#f00",
+        "fontStyle": "bold"
       }
     },
     {
@@ -470,8 +479,8 @@
         "support.function.url.css"
       ],
       "settings": {
-        "foreground": "#f1a7bd",
-        "fontStyle": ""
+        "foreground": "#000",
+        "fontStyle": "bold"
       }
     },
     {
@@ -484,8 +493,8 @@
         "entity.name.function.close"
       ],
       "settings": {
-        "foreground": "#f1a7bd",
-        "fontStyle": ""
+        "foreground": "#000",
+        "fontStyle": "bold"
       }
     },
     {
@@ -519,7 +528,8 @@
         "keyword.other.default.scss"
       ],
       "settings": {
-        "foreground": "#ff8e8e"
+        "foreground": "#000",
+        "fontStyle": "bold"
       }
     },
     {
@@ -530,7 +540,7 @@
         "punctuation.terminator.rule.css"
       ],
       "settings": {
-        "foreground": "#4d5353",
+        "foreground": "#000",
         "fontStyle": "bold"
       }
     },
@@ -599,7 +609,7 @@
         "punctuation.terminator.statement.tsx"
       ],
       "settings": {
-        "foreground": "#242424"
+        "foreground": "#03312b"
       }
     },
     {
@@ -643,8 +653,7 @@
         "punctuation.definition.binding-pattern.object.tsx"
       ],
       "settings": {
-        "foreground": "#00000056",
-        "fontStyle": "bold"
+        "foreground": "#000"
       }
     },
     {
@@ -658,7 +667,7 @@
         "storage.type.function"
       ],
       "settings": {
-        "foreground": "#aaa",
+        "foreground": "#000",
         "fontStyle": "bold"
       }
     },
@@ -671,7 +680,7 @@
         "support.variable.property.tsx"
       ],
       "settings": {
-        "foreground": "#aaa",
+        "foreground": "#000",
         "fontStyle": "bold"
       }
     },
@@ -705,7 +714,7 @@
         "constant.language.undefined.tsx"
       ],
       "settings": {
-        "foreground": "#080808",
+        "foreground": "#000",
         "fontStyle": "underline"
       }
     },
@@ -718,7 +727,7 @@
         "keyword.operator.expression.void.tsx"
       ],
       "settings": {
-        "foreground": "#080808",
+        "foreground": "#000",
         "fontStyle": "underline"
       }
     },
@@ -731,7 +740,7 @@
         "storage.modifier.async.tsx"
       ],
       "settings": {
-        "foreground": "#aaa",
+        "foreground": "#000",
         "fontStyle": "bold"
       }
     },
@@ -760,7 +769,7 @@
         "storage.type.function.tsx"
       ],
       "settings": {
-        "foreground": "#aaa",
+        "foreground": "#000",
         "fontStyle": "bold"
       }
     },
@@ -778,7 +787,7 @@
         "keyword.operator.expression.of.tsx"
       ],
       "settings": {
-        "foreground": "#aaa",
+        "foreground": "#000",
         "fontStyle": "bold"
       }
     },
@@ -791,7 +800,7 @@
         "keyword.control.flow.tsx"
       ],
       "settings": {
-        "foreground": "#080808",
+        "foreground": "#000",
         "fontStyle": "underline"
       }
     },
@@ -804,7 +813,7 @@
         "variable.language.this.tsx"
       ],
       "settings": {
-        "foreground": "#aaa",
+        "foreground": "#333",
         "fontStyle": "bold"
       }
     },
@@ -817,7 +826,7 @@
         "variable.language.super.tsx"
       ],
       "settings": {
-        "foreground": "#aaa",
+        "foreground": "#000",
         "fontStyle": "bold"
       }
     },
@@ -830,8 +839,8 @@
         "keyword.operator.new.tsx"
       ],
       "settings": {
-        "foreground": "#aaa",
-        "fontStyle": "bold"
+        "foreground": "#000",
+        "fontStyle": "underline"
       }
     },
     {
@@ -863,7 +872,7 @@
         "storage.modifier.tsx"
       ],
       "settings": {
-        "foreground": "#aaa",
+        "foreground": "#000",
         "fontStyle": "bold"
       }
     },
@@ -876,7 +885,7 @@
         "constant.language.import-export-all.tsx"
       ],
       "settings": {
-        "foreground": "#aaa",
+        "foreground": "#000",
         "fontStyle": "bold"
       }
     },
@@ -915,7 +924,7 @@
         "storage.type.class.tsx"
       ],
       "settings": {
-        "foreground": "#aaa",
+        "foreground": "#000",
         "fontStyle": "bold"
       }
     },
@@ -1416,7 +1425,7 @@
         "punctuation.definition.array.end.json"
       ],
       "settings": {
-        "foreground": "#AAA"
+        "foreground": "#444"
       }
     },
     {
@@ -1430,7 +1439,7 @@
         "punctuation.support.type.property-name.end.json"
       ],
       "settings": {
-        "foreground": "#AAA"
+        "foreground": "#444"
       }
     },
     {

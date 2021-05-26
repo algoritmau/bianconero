@@ -300,7 +300,7 @@
       "name": "CSS Source",
       "scope": ["source.css", "source.sass"],
       "settings": {
-        "foreground": "#d4d4d4"
+        "foreground": "#fff"
       }
     },
     {
@@ -315,7 +315,7 @@
         "comment.line.sass"
       ],
       "settings": {
-        "foreground": "#10683c",
+        "foreground": "#323232",
         "fontStyle": ""
       }
     },
@@ -327,7 +327,7 @@
         "entity.name.tag.wildcard.sass"
       ],
       "settings": {
-        "foreground": "#ff9d4d",
+        "foreground": "#fff",
         "fontStyle": "bold"
       }
     },
@@ -342,7 +342,7 @@
       "name": "CSS Element Selector",
       "scope": "entity.name.tag.css",
       "settings": {
-        "foreground": "#9db6ec"
+        "foreground": "#fff"
       }
     },
     {
@@ -350,7 +350,7 @@
       // FIXME: Get scope for sass
       "scope": ["entity.other.attribute-name.pseudo-element.css"],
       "settings": {
-        "foreground": "#626969",
+        "foreground": "#ccc",
         "fontStyle": "bold"
       }
     },
@@ -361,14 +361,15 @@
         "entity.other.attribute-name.class.css"
       ],
       "settings": {
-        "foreground": "#ffbfbf"
+        "foreground": "#fff",
+        "fontStyle": "bold"
       }
     },
     {
       "name": "CSS Pseudo Class Selector",
       "scope": ["entity.other.attribute-name.pseudo-class.css"],
       "settings": {
-        "foreground": "#626969",
+        "foreground": "#ccc",
         "fontStyle": "bold"
       }
     },
@@ -413,7 +414,7 @@
       "name": "CSS Property Names",
       "scope": "support.type.property-name.css",
       "settings": {
-        "foreground": "#ffffff80"
+        "foreground": "#ddd"
       }
     },
     {
@@ -458,16 +459,15 @@
         "keyword.other.unit.percentage.css"
       ],
       "settings": {
-        "foreground": "#6a5da3",
-        "fontStyle": "bold"
+        "foreground": "#fff"
       }
     },
     {
       "name": "CSS Variables",
       "scope": ["variable.css", "variable.scss"],
       "settings": {
-        "foreground": "#c7a688", // 75b36d
-        "fontStyle": ""
+        "foreground": "#fff",
+        "fontStyle": "bold"
       }
     },
     {
@@ -480,8 +480,8 @@
         "support.function.url.css"
       ],
       "settings": {
-        "foreground": "#f1a7bd",
-        "fontStyle": ""
+        "foreground": "#fff",
+        "fontStyle": "bold"
       }
     },
     {
@@ -494,8 +494,8 @@
         "entity.name.function.close"
       ],
       "settings": {
-        "foreground": "#f1a7bd",
-        "fontStyle": ""
+        "foreground": "#fff",
+        "fontStyle": "bold"
       }
     },
     {
@@ -510,15 +510,16 @@
       "name": "Logical Operator and (media)",
       "scope": "keyword.operator.logical.and.media.css",
       "settings": {
-        "foreground": "#626969",
-        "fontStyle": ""
+        "foreground": "#fff",
+        "fontStyle": "bold"
       }
     },
     {
       "name": "At-Rule Header",
       "scope": "meta.at-rule.media.header.css",
       "settings": {
-        "foreground": "#5f6f81"
+        "foreground": "#fff",
+        "fontStyle": "bold"
       }
     },
     {
@@ -529,7 +530,8 @@
         "keyword.other.default.scss"
       ],
       "settings": {
-        "foreground": "#ff8e8e"
+        "foreground": "#fff",
+        "fontStyle": "bold"
       }
     },
     {
@@ -540,7 +542,7 @@
         "punctuation.terminator.rule.css"
       ],
       "settings": {
-        "foreground": "#4d5353",
+        "foreground": "#fff",
         "fontStyle": "bold"
       }
     },
@@ -840,8 +842,8 @@
         "keyword.operator.new.tsx"
       ],
       "settings": {
-        "foreground": "#727272",
-        "fontStyle": "bold"
+        "foreground": "#fff",
+        "fontStyle": "underline"
       }
     },
     {
