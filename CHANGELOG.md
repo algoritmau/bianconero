@@ -1,5 +1,25 @@
 # Change Log
 
+## v0.2.0
+
+<small>MAY 25, 2021</small>
+
+### What's Fixed
+
+- Fixed issue with CSS property names' color in white theme
+
+### What's Changed
+
+- Changed color for JavaScript's `null`, `undefined`, `void` and `return` keywords
+
+- Lightened colors for numeric constants and strings
+
+- Changed markdown headings' and strings' colors
+
+- Updated CSS Strings' color
+
+- Updated CSS and JSON numeric constants' color
+
 ## v0.1.0
 
 <small>MAY 10, 2021</small>

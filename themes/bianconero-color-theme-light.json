@@ -161,9 +161,9 @@
     "terminal.selectionBackground": "#08080856",
     "terminalCursor.foreground": "#080808",
     "terminal.ansiBlack": "#080808",
-    "terminal.ansiBlue": "#00005c",
+    "terminal.ansiBlue": "#281c6d",
     "terminal.ansiCyan": "#8cebe3",
-    "terminal.ansiGreen": "#2b5842",
+    "terminal.ansiGreen": "#172e23",
     "terminal.ansiMagenta": "#700070",
     "terminal.ansiRed": "#ad0000",
     "terminal.ansiWhite": "#ddd",
@@ -234,7 +234,7 @@
         "string.quoted.single.html"
       ],
       "settings": {
-        "foreground": "#2B5842"
+        "foreground": "#172e23"
       }
     },
     {
@@ -252,14 +252,14 @@
         "punctuation.separator.key-value.html"
       ],
       "settings": {
-        "foreground": "#00000056"
+        "foreground": "#172e23"
       }
     },
     {
       "name": "HTML Entity Definition",
       "scope": "constant.character",
       "settings": {
-        "foreground": "#611f1f",
+        "foreground": "#242424",
         "fontStyle": "bold"
       }
     },
@@ -267,7 +267,7 @@
       "name": "HTML Entity Punctuation",
       "scope": "punctuation.definition.entity.html",
       "settings": {
-        "foreground": "#611f1f96"
+        "foreground": "#080808"
       }
     },
     {
@@ -305,7 +305,7 @@
         "comment.line.sass"
       ],
       "settings": {
-        "foreground": "#10683c",
+        "foreground": "#ccc",
         "fontStyle": ""
       }
     },
@@ -403,7 +403,7 @@
       "name": "CSS Property Names",
       "scope": "support.type.property-name.css",
       "settings": {
-        "foreground": "#ffffff80"
+        "foreground": "#777"
       }
     },
     {
@@ -426,14 +426,14 @@
         "string.quoted.double.scss"
       ],
       "settings": {
-        "foreground": "#72b97b"
+        "foreground": "#172e23"
       }
     },
     {
       "name": "CSS Numeric Constants",
       "scope": "constant.numeric.css",
       "settings": {
-        "foreground": "#9c89f0"
+        "foreground": "#281c6d"
       }
     },
     {
@@ -705,8 +705,8 @@
         "constant.language.undefined.tsx"
       ],
       "settings": {
-        "foreground": "#611F1F",
-        "fontStyle": "bold"
+        "foreground": "#080808",
+        "fontStyle": "underline"
       }
     },
     {
@@ -718,8 +718,8 @@
         "keyword.operator.expression.void.tsx"
       ],
       "settings": {
-        "foreground": "#611F1F",
-        "fontStyle": "bold"
+        "foreground": "#080808",
+        "fontStyle": "underline"
       }
     },
     {
@@ -791,8 +791,8 @@
         "keyword.control.flow.tsx"
       ],
       "settings": {
-        "foreground": "#611f1f",
-        "fontStyle": "bold"
+        "foreground": "#080808",
+        "fontStyle": "underline"
       }
     },
     {
@@ -953,7 +953,7 @@
         "string.template.tsx"
       ],
       "settings": {
-        "foreground": "#2b5842"
+        "foreground": "#172e23"
       }
     },
     {
@@ -969,7 +969,7 @@
         "punctuation.definition.template-expression.end.tsx"
       ],
       "settings": {
-        "foreground": "#2b5842",
+        "foreground": "#080808",
         "fontStyle": "bold"
       }
     },
@@ -982,7 +982,7 @@
         "constant.numeric.decimal.tsx"
       ],
       "settings": {
-        "foreground": "#3d2aa5"
+        "foreground": "#281c6d"
       }
     },
     //JSX
@@ -1391,21 +1391,21 @@
       "name": "JSON Strings",
       "scope": "string.quoted.double.json",
       "settings": {
-        "foreground": "#2B5842"
+        "foreground": "#172e23"
       }
     },
     {
       "name": "JSON Numeric Constants",
       "scope": "constant.numeric.json",
       "settings": {
-        "foreground": "#3D2AA5"
+        "foreground": "#281c6d"
       }
     },
     {
       "name": "JSON Language Constants",
       "scope": "constant.language.json",
       "settings": {
-        "foreground": "#611F1F",
+        "foreground": "#080808",
         "fontStyle": "bold"
       }
     },
@@ -1459,7 +1459,7 @@
         "markup.inline.raw.string.markdown"
       ],
       "settings": {
-        "foreground": "#65d39c"
+        "foreground": "#172e23"
       }
     },
     {
